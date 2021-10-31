@@ -1,5 +1,4 @@
 from PIL import Image, ImageColor
-from pathlib import Path
 
 
 def generate():
