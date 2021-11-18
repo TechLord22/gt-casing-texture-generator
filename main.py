@@ -5,11 +5,11 @@ def generate():
     # Get base image type input
     material_icon_type = input('Select Material Icon Set [METALLIC, SHINY, DULL]: ')
 
-    if material_icon_type == 'M'.casefold():
+    if material_icon_type.casefold() == 'M'.casefold():
         material_icon_type = 'METALLIC'
-    elif material_icon_type == 'S'.casefold():
+    elif material_icon_type.casefold() == 'S'.casefold():
         material_icon_type = 'SHINY'
-    elif material_icon_type == 'D'.casefold():
+    elif material_icon_type.casefold() == 'D'.casefold():
         material_icon_type = 'DULL'
 
     if material_icon_type.casefold() == 'METALLIC'.casefold():
